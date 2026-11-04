@@ -1,0 +1,174 @@
+
+.portfolio {
+  min-height: 100vh;
+  background: #09090b;
+}
+
+/* NAVIGATION */
+
+.navbar {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 28px 32px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 27px;
+  font-weight: 800;
+}
+
+.logo span {
+  color: #047139;
+}
+
+.nav-links {
+  display: flex;
+  gap: 32px;
+}
+
+.nav-links a {
+  color: #a1a1aa;
+  font-size: 14px;
+  transition: color 0.2s;
+}
+
+.nav-links a:hover {
+  color: #047139;
+}
+
+.nav-button {
+  padding: 11px 20px;
+  border: 1px solid #3f3f46;
+  border-radius: 8px;
+  font-size: 14px;
+  transition: 0.2s;
+}
+
+.nav-button:hover {
+  background: #047139;
+  color: #09090b;
+}
+
+/* HERO */
+
+.hero {
+  max-width: 1200px;
+  min-height: 80vh;
+  margin: auto;
+  padding: 100px 32px;
+
+  display: flex;
+  align-items: center;
+}
+
+.hero-content {
+  max-width: 850px;
+}
+
+.hero-label {
+  color:#047139;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  margin-bottom: 28px;
+}
+
+.hero h1 {
+  font-size: clamp(42px, 7vw, 76px);
+  line-height: 1.12;
+  letter-spacing: -3px;
+  font-weight: 800;
+}
+
+.hero h1 span {
+  color: #047139;
+}
+
+.hero-description {
+  max-width: 620px;
+  margin-top: 28px;
+  color: #a1a1aa;
+  font-size: 17px;
+  line-height: 1.8;
+}
+
+.hero-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 35px;
+}
+
+.primary-button,
+.secondary-button {
+  padding: 14px 22px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  transition: 0.2s;
+}
+
+.primary-button {
+  background: #047139;
+  color: #09090b;
+}
+
+.primary-button:hover {
+  background: #047139;
+  color:#fafafa;
+}
+
+.secondary-button {
+  border: 1px solid #3f3f46;
+  color: #fafafa;
+}
+
+.secondary-button:hover {
+  border-color: #047139;
+}
+
+.hero-quote {
+  margin-top: 60px;
+  color: #71717a;
+  font-size: 13px;
+  font-style: italic;
+}
+
+/* MOBILE */
+
+@media (max-width: 650px) {
+  .navbar {
+    padding: 22px 20px;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .nav-links {
+    order: 3;
+    width: 100%;
+    justify-content: space-between;
+    gap: 10px;
+  }
+
+  .nav-links a {
+    font-size: 12px;
+  }
+
+  .hero {
+    padding: 80px 20px;
+    min-height: 75vh;
+  }
+
+  .hero h1 {
+    letter-spacing: -1.5px;
+  }
+
+  .hero-description {
+    font-size: 15px;
+  }
+}
