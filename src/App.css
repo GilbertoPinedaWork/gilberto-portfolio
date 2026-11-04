@@ -8,13 +8,16 @@
 
 .navbar {
   width: 100%;
-  max-width: 1200px;
-  margin: auto;
-  padding: 28px 32px;
-
+  max-width: 100%;
+  margin: 0;
+  padding: 10px 32px;
+  position:sticky;/**/
+  top: 0;
+  z-index: 1000;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background-color: #135430;
 }
 
 .logo {
@@ -33,12 +36,12 @@
 
 .nav-links a {
   color: #a1a1aa;
-  font-size: 14px;
+  font-size: 16px;
   transition: color 0.2s;
 }
 
 .nav-links a:hover {
-  color: #047139;
+  color: #09090b;
 }
 
 .nav-button {
@@ -47,11 +50,12 @@
   border-radius: 8px;
   font-size: 14px;
   transition: 0.2s;
+  color: #a1a1aa;
+  background: #09090b;
 }
 
 .nav-button:hover {
-  background: #047139;
-  color: #09090b;
+  font-size: 20px;
 }
 
 /* HERO */
@@ -257,6 +261,102 @@
   border-color: #047139;
 }
 
+/* PROJECTS SECTION */
+
+.projects {
+  padding: 100px 32px;
+  border-top: 1px solid #27272a;
+}
+
+.projects-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.projects-title {
+  font-size: 42px;
+  font-weight: 800;
+  letter-spacing: -1.5px;
+  margin-bottom: 16px;
+}
+
+.projects-description {
+  color: #a1a1aa;
+  font-size: 16px;
+  line-height: 1.8;
+  max-width: 600px;
+  margin-bottom: 40px;
+}
+/* PROJECT CARDS */
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.project-card {
+  background: #18181b;
+  border: 1px solid #27272a;
+  border-radius: 12px;
+  padding: 30px;
+  transition: border-color 0.2s, transform 0.2s;
+}
+
+.project-card:hover {
+  border-color: #047139;
+  transform: translateY(-4px);
+}
+
+.project-info h3 {
+  font-size: 21px;
+  margin-bottom: 14px;
+}
+
+.project-info p {
+  color: #a1a1aa;
+  font-size: 15px;
+  line-height: 1.8;
+  margin-bottom: 24px;
+}
+
+.project-technologies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 24px;
+}
+
+.project-tag {
+  background: #27272a;
+  color: #d4d4d8;
+  border: 1px solid #3f3f46;
+  padding: 7px 12px;
+  border-radius: 6px;
+  font-size: 12px;
+}
+
+.project-status {
+  color: #047139;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+/* MOBILE RESPONSIVENESS */
+
+@media (max-width: 650px) {
+  .projects {
+    padding: 80px 20px;
+  }
+
+  .projects-title {
+    font-size: 32px;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+}
 /* MOBILE RESPONSIVENESS */
 
 @media (max-width: 650px) {
