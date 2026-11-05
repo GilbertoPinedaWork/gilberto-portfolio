@@ -181,8 +181,6 @@
   margin-bottom: 18px;
 }
 
-/*SKILLS & TECHNOLOGIES*/
-
 /* SKILLS SECTION */
 
 .skills {
@@ -340,6 +338,60 @@
   color: #047139;
   font-size: 13px;
   font-weight: 600;
+}
+/* CONTACT SECTION */
+
+.contact {
+  padding: 110px 32px;
+  border-top: 1px solid #27272a;
+  text-align: center;
+}
+
+.contact-container {
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.contact-title {
+  font-size: 42px;
+  font-weight: 800;
+  letter-spacing: -1.5px;
+  margin-bottom: 20px;
+}
+
+.contact-description {
+  color: #a1a1aa;
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 35px;
+}
+
+.contact-button {
+  display: inline-block;
+  background: #047139;
+  color: #09090b;
+  padding: 13px 26px;
+  border-radius: 8px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: transform 0.2s, background 0.2s;
+}
+
+.contact-button:hover {
+  background: rgb(73, 166, 118);
+  transform: translateY(-3px);
+}
+
+/* MOBILE RESPONSIVENESS */
+
+@media (max-width: 650px) {
+  .contact {
+    padding: 80px 20px;
+  }
+
+  .contact-title {
+    font-size: 32px;
+  }
 }
 
 /* MOBILE RESPONSIVENESS */
