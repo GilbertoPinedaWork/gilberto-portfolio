@@ -6,8 +6,8 @@ function Skills() {
       skills: ["HTML", "CSS", "JavaScript", "React"]
     },
     {
-      title: "Other Languages",
-      skills: ["C++", "C#", "Spanish(Native Level)", "English (Native Level)", "Python"]
+      title: "Backend Languages",
+      skills: ["C++", "C#","Python"]
     },
     {
       title: "Tools & Technologies",
@@ -15,7 +15,7 @@ function Skills() {
     },
     {
       title: "Other Skills",
-      skills: ["Music Production: FL Studio"]
+      skills: ["Bilingual: English and Spanish","Music Production: FL Studio", "Hardware and Software Integration Design","Interface Design"]
     }
   ]
 
