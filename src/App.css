@@ -73,7 +73,6 @@
 .hero-content {
   max-width: 850px;
 }
-
 .hero-label {
   color:#047139;
   font-size: 13px;
@@ -394,8 +393,6 @@
   }
 }
 
-/* MOBILE RESPONSIVENESS */
-
 @media (max-width: 650px) {
   .projects {
     padding: 80px 20px;
@@ -409,7 +406,6 @@
     grid-template-columns: 1fr;
   }
 }
-/* MOBILE RESPONSIVENESS */
 
 @media (max-width: 650px) {
   .skills {
@@ -429,7 +425,6 @@
   }
 }
 
-/* MOBILE */
 
 @media (max-width: 650px) {
   .navbar {

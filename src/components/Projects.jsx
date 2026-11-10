@@ -2,12 +2,27 @@ function Projects(){
     const projectList =[
         {
             title: "Portfolio Website",
-            description: "First project and homebase for all my projects,"+
+            description: "First website project and homebase for all my projects,"+
             " contributions and skills acquired through time and effort"+
-            " it serves as my tech digital portfolio.",
-            technologies: ["React", "JavaScript", "CSS", "Vite"],
+            " it serves as my tech digital portfolio. By building this project I learned"+
+            " about component-based development and how version control works.",
+            technologies: ["React", "JavaScript", "CSS", "Vite","Git"],
             status: "In Progress",
-            link: "#"
+            link: "https://gilberto-portfolio-iota.vercel.app"
+        },
+        {
+            title: "Voice to command Interface",
+            description:"Back in Highschool I made a research project that involved"+
+            " turning one word and assigning each letter a set of functions. The idea was to"+
+            " be able to control different devices and execute different sequential task with"+
+            " just one word. By making this project I learned to design interfaces,"+
+            " the basics of system design, microcontroller programing and hardware integration."+
+            " Fun fact: one year after the proposal"+
+            " ALEXA was launched wich was in a way similar to what i wanted to achieve albeit different in scope",
+        
+            technologies: ["Arduino UNO","Servos","Bluetooth modules", "Hardware Inegration"],
+            status:"DONE",
+            link:"#"
         }
     ]
 return(
