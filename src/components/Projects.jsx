@@ -23,6 +23,16 @@ function Projects(){
             technologies: ["Arduino UNO","Servos","Bluetooth modules", "Hardware Inegration"],
             status:"DONE",
             link:"#"
+        },
+        {
+            title:"Life Dashboard",
+            description:"This is a personal project that serves three purposes:"+
+            " Organize and Improve my life, Learn how to code with AI and Practice Reading and detangling AI."+
+            " This project have many feature  I have found useful and that they work for me and I have put them all into" +
+            " one seamless and interactive interface. This also helped learn about Firebase aswell",
+            status:"DONE but Always Improving.",
+            link:"https://gilslifedashboard-life-os.vercel.app/",
+            technologies:["Vercel","Firebase","Javascript","AI coding"] 
         }
     ]
 return(
