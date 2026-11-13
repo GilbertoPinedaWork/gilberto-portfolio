@@ -275,6 +275,7 @@
   font-weight: 800;
   letter-spacing: -1.5px;
   margin-bottom: 16px;
+  
 }
 
 .projects-description {
@@ -335,6 +336,11 @@
 
 .project-status {
   color: #047139;
+  font-size: 13px;
+  font-weight: 600;
+}
+.project-link{
+   color: #047139;
   font-size: 13px;
   font-weight: 600;
 }

@@ -60,6 +60,9 @@ return(
                         <span className="project-status">
                         {project.status}
                         </span>
+                        <span className = "project-link">
+                            {project.link}
+                        </span>
                     </div>
 
                 </div>
