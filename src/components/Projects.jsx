@@ -57,12 +57,13 @@ return(
                         ))}
                         </div>
 
-                        <span className="project-status">
-                        {project.status}
+                        <span className="project-status" >
+                        {project.status +": "}
+                            <a href = {project.link } className = "project-link">
+                                {project.link}
+                            </a>
                         </span>
-                        <span className = "project-link">
-                            {project.link}
-                        </span>
+                        
                     </div>
 
                 </div>
